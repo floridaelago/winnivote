@@ -1,0 +1,2 @@
+module BrainstormHelper
+end

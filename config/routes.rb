@@ -1,4 +1,8 @@
 Winnipegrb::Application.routes.draw do
+  get "brainstorm/new"
+
+  get "brainstorm/create"
+
   devise_for :users
 
   get "ideas/new" => "ideas#new", :as => "new_idea"
